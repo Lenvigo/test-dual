@@ -1,28 +1,27 @@
 class Calculadora {
-    sumar(a, b) {
-        return 0
-    }
+  sumar(a, b) {
+    return a + b;
+  }
 
-    restar(a, b) {
-        return 0
-    }
+  restar(a, b) {
+    return a - b;
+  }
 
-    multiplicar(a, b) {
-        return 0
-    }
+  multiplicar(a, b) {
+    return a * b;
+  }
 
-    dividir(a, b) {
-        return 0
-    }
+  dividir(a, b) {
+    return a / b;
+  }
 
-    potencia(base, exponente) {
-        return 0
-    }
+  potencia(base, exponente) {
+    return Math.pow(base, exponente);
+  }
 
-    raizCuadrada(a) {
-        return 0
-    }
+  raizCuadrada(a) {
+    return Math.sqrt(a);
+  }
 }
 
 module.exports = Calculadora;
-
